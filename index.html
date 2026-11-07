@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ozomatli | Crepería & Espacio Cultural en Iztacalco, CDMX</title>
+  <meta name="description" content="Ozomatli es una crepería y espacio cultural en Iztacalco, Ciudad de México. Disfruta crepas, malteadas y café en un ambiente artístico. Dirección: Playa Caletilla 52.">
+  <meta name="keywords" content="Ozomatli, crepería, crepas, malteadas, Tinta Café, Iztacalco, CDMX, espacio cultural">
+  <meta property="og:title" content="Ozomatli | Crepería & Espacio Cultural">
+  <meta property="og:description" content="Crepas, malteadas y arte en el corazón de Iztacalco. Ven a disfrutar.">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:locale" content="es_MX">
+  <link rel="canonical" href="https://example.com/"> <!-- Replace with real domain -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Ozomatli",
+    "image": "assets/images/photo-10.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Playa Caletilla 52, Reforma Iztaccihuatl Nte.",
+      "addressLocality": "Iztacalco",
+      "addressRegion": "Ciudad de México",
+      "postalCode": "08810",
+      "addressCountry": "MX"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 19.3895814,
+      "longitude": -99.1301398
+    },
+    "telephone": "+525534737095",
+    "servesCuisine": ["Creperie", "Café"],
+    "priceRange": "$$",
+    "openingHoursSpecification": [
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Friday", "Saturday", "Sunday"], "opens": "18:30", "closes": "22:00"},
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "00:00", "closes": "00:00"}
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "reviewCount": "33"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo">
+        <img src="assets/images/photo-10.jpg" alt="Logo Tinta Café / Ozomatli" class="logo-img" width="48" height="48">
+        <span class="logo-text">Ozomatli</span>
+      </a>
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#inicio" data-i18n="nav_home">Inicio</a></li>
+          <li><a href="#menu" data-i18n="nav_menu">Menú</a></li>
+          <li><a href="#galeria" data-i18n="nav_gallery">Galería</a></li>
+          <li><a href="#horarios" data-i18n="nav_hours">Horarios</a></li>
+          <li><a href="#ubicacion" data-i18n="nav_location">Ubicación</a></li>
+          <li><a href="#contacto" data-i18n="nav_contact">Contacto</a></li>
+        </ul>
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="es" aria-label="Español">ES</button>
+          <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+        </div>
+      </nav>
+      <div class="header-actions">
+        <a href="https://wa.me/525534737095?text=Hola%2C%20quisiera%20información%20sobre%20Ozomatli" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer" data-i18n="btn_whatsapp">WhatsApp</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+      <div class="hero-bg" style="background-image: url('assets/images/photo-01.jpg');"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="hero-eyebrow" data-i18n="hero_eyebrow">Crepería & Espacio Cultural</p>
+        <h1 class="hero-title" data-i18n="hero_title">Ozomatli</h1>
+        <p class="hero-desc" data-i18n="hero_desc">Crepas deliciosas, malteadas cremosas y un ambiente artístico en el corazón de Iztacalco. Ven a disfrutar de sabores únicos en un espacio lleno de cultura mexicana.</p>
+        <div class="hero-cta">
+          <a href="#menu" class="btn btn-primary" data-i18n="btn_view_menu">Ver Menú</a>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Playa+Caletilla+52,+Reforma+Iztaccihuatl+Nte.,+Iztacalco,+08810+Ciudad+de+México,+CDMX" class="btn btn-secondary" target="_blank" rel="noopener noreferrer" data-i18n="btn_directions">Cómo llegar</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <h2 class="section-title" data-i18n="about_title">Un espacio para el arte y el sabor</h2>
+            <p data-i18n="about_p1">Ozomatli es más que una crepería: es un espacio cultural en Iztacalco donde el arte, el diseño mexicano y la buena comida se encuentran.</p>
+            <p data-i18n="about_p2">Disfruta de crepas dulces y saladas, malteadas artesanales y café de calidad mientras exploras un ambiente creativo. Ideal para una tarde con amigos, familia o para inspirarte.</p>
+            <ul class="about-features">
+              <li data-i18n="feat_1">Crepas caseras</li>
+              <li data-i18n="feat_2">Malteadas y bebidas especiales</li>
+              <li data-i18n="feat_3">Ambiente artístico</li>
+              <li data-i18n="feat_4">Terraza y mesas al aire libre</li>
+            </ul>
+          </div>
+          <div class="about-image">
+            <img src="assets/images/photo-13.jpg" alt="Terraza exterior de Ozomatli con mesas y carpas" loading="lazy" width="600" height="400">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="section menu-section" id="menu">
+      <div class="container">
+        <h2 class="section-title text-center" data-i18n="menu_title">Nuestro Menú</h2>
+        <p class="section-subtitle text-center" data-i18n="menu_subtitle">Selección de productos verificados. Pregunta por el menú completo y precios actualizados al visitar o por WhatsApp.</p>
+
+        <div class="menu-categories">
+          <button class="cat-btn active" data-cat="all" data-i18n="cat_all">Todos</button>
+          <button class="cat-btn" data-cat="crepas" data-i18n="cat_crepas">Crepas</button>
+          <button class="cat-btn" data-cat="bebidas" data-i18n="cat_drinks">Bebidas</button>
+          <button class="cat-btn" data-cat="malteadas" data-i18n="cat_shakes">Malteadas</button>
+        </div>
+
+        <div class="menu-grid">
+          <!-- Crepas -->
+          <article class="menu-card" data-cat="crepas">
+            <div class="menu-card-img">
+              <img src="assets/images/photo-02.jpg" alt="Crepa dulce con Nutella" loading="lazy" width="400" height="300">
+            </div>
+            <div class="menu-card-body">
+              <h3 data-i18n="item_crepa_dulce">Crepa Dulce</h3>
+              <p data-i18n="item_crepa_dulce_desc">Crepa suave rellena de Nutella u otros sabores dulces. Perfecta para compartir.</p>
+              <span class="price" data-i18n="price_ask">Consultar precio</span>
+            </div>
+          </article>
+          <article class="menu-card" data-cat="crepas">
+            <div class="menu-card-img">
+              <img src="assets/images/photo-06.jpg" alt="Crepa salada de jamón y queso" loading="lazy" width="400" height="300">
+            </div>
+            <div class="menu-card-body">
+              <h3 data-i18n="item_crepa_salada">Crepa Salada</h3>
+              <p data-i18n="item_crepa_salada_desc">Crepa rellena de jamón, queso y hierbas. Opción salada ideal.</p>
+              <span class="price" data-i18n="price_ask">Consultar precio</span>
+            </div>
+          </article>
+          <!-- Bebidas -->
+          <article class="menu-card" data-cat="bebidas">
+            <div class="menu-card-img">
+              <img src="assets/images/photo-04.jpg" alt="Café y bebida azul en vaso tipo mason" loading="lazy" width="400" height="300">
+            </div>
+            <div class="menu-card-body">
+              <h3 data-i18n="item_cafe">Café & Bebidas</h3>
+              <p data-i18n="item_cafe_desc">Cappuccino, lattes y bebidas especiales preparadas al momento.</p>
+              <span class="price" data-i18n="price_ask">Consultar precio</span>
+            </div>
+          </article>
+          <article class="menu-card" data-cat="bebidas">
+            <div class="menu-card-img">
+              <img src="assets/images/photo-07.jpg" alt="Malteada de Oreo con crema y galleta" loading="lazy" width="400" height="300">
+            </div>
+            <div class="menu-card-body">
+              <h3 data-i18n="item_oreo">Oreo</h3>
+              <p data-i18n="item_oreo_desc">Malteada de Oreo con crema batida y galleta.</p>
+              <span class="price">$35 – $45</span>
+            </div>
+          </article>
+          <article class="menu-card" data-cat="malteadas">
+            <div class="menu-card-img">
+              <img src="assets/images/photo-08.jpg" alt="Malteada de caramelo en vaso mason" loading="lazy" width="400" height="300">
+            </div>
+            <div class="menu-card-body">
+              <h3 data-i18n="item_caramel">Caramelo / Otras</h3>
+              <p data-i18n="item_caramel_desc">Malteadas de caramelo, chocolate, vainilla y más sabores.</p>
+              <span class="price">$35 – $45</span>
+            </div>
+          </article>
+          <article class="menu-card" data-cat="malteadas">
+            <div class="menu-card-img">
+              <img src="assets/images/photo-03.jpg" alt="Bebida frutal con chamoy y tamarindo" loading="lazy" width="400" height="300">
+            </div>
+            <div class="menu-card-body">
+              <h3 data-i18n="item_frutal">Especiales Frutales</h3>
+              <p data-i18n="item_frutal_desc">Bebidas refrescantes con fruta, chamoy y toques mexicanos.</p>
+              <span class="price" data-i18n="price_ask">Consultar precio</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="menu-note">
+          <p data-i18n="menu_note">Los precios de malteadas corresponden a la promoción de lanzamiento visible en el local ($45 → $35). El menú completo y precios actualizados se confirman al contactar o visitar el establecimiento.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section gallery" id="galeria">
+      <div class="container">
+        <h2 class="section-title text-center" data-i18n="gallery_title">Galería</h2>
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img src="assets/images/photo-01.jpg" alt="Terraza exterior con carpas blancas y ambiente nocturno" loading="lazy" width="400" height="300">
+          </figure>
+          <figure class="gallery-item">
+            <img src="assets/images/photo-05.jpg" alt="Mesa con crepas y bebidas" loading="lazy" width="400" height="300">
+          </figure>
+          <figure class="gallery-item">
+            <img src="assets/images/photo-14.jpg" alt="Interior de la cafetería con máquina de espresso" loading="lazy" width="400" height="300">
+          </figure>
+          <figure class="gallery-item">
+            <img src="assets/images/photo-09.jpg" alt="Pizarrón de malteadas con sabores y precios" loading="lazy" width="400" height="300">
+          </figure>
+          <figure class="gallery-item">
+            <img src="assets/images/photo-02.jpg" alt="Crepa con Nutella en mesa de madera" loading="lazy" width="400" height="300">
+          </figure>
+          <figure class="gallery-item">
+            <img src="assets/images/photo-13.jpg" alt="Vista nocturna de la terraza de Ozomatli" loading="lazy" width="400" height="300">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hours -->
+    <section class="section hours" id="horarios">
+      <div class="container">
+        <h2 class="section-title text-center" data-i18n="hours_title">Horarios</h2>
+        <div class="hours-card">
+          <ul class="hours-list">
+            <li><span data-i18n="day_mon">Lunes</span> <strong>18:30 – 22:00</strong></li>
+            <li><span data-i18n="day_tue">Martes</span> <strong>18:30 – 22:00</strong></li>
+            <li><span data-i18n="day_wed">Miércoles</span> <strong>18:30 – 22:00</strong></li>
+            <li class="closed"><span data-i18n="day_thu">Jueves</span> <strong data-i18n="closed">Cerrado</strong></li>
+            <li><span data-i18n="day_fri">Viernes</span> <strong>18:30 – 22:00</strong></li>
+            <li><span data-i18n="day_sat">Sábado</span> <strong>18:30 – 22:00</strong></li>
+            <li><span data-i18n="day_sun">Domingo</span> <strong>18:30 – 22:00</strong></li>
+          </ul>
+          <p class="hours-note" data-i18n="hours_note">Horarios según información pública disponible. Confirma por WhatsApp antes de visitar, especialmente en días festivos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location -->
+    <section class="section location" id="ubicacion">
+      <div class="container">
+        <h2 class="section-title text-center" data-i18n="location_title">Ubicación</h2>
+        <div class="location-grid">
+          <div class="location-info">
+            <h3>Ozomatli</h3>
+            <p class="address">Playa Caletilla 52<br>Reforma Iztaccihuatl Nte.<br>Iztacalco, 08810<br>Ciudad de México, CDMX, México</p>
+            <div class="location-actions">
+              <a href="https://maps.app.goo.gl/2h218DQonh3ST5nA6" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-i18n="btn_view_maps">Ver en Google Maps</a>
+              <a href="https://www.google.com/maps/dir/?api=1&destination=19.3895814,-99.1301398" class="btn btn-secondary" target="_blank" rel="noopener noreferrer" data-i18n="btn_get_directions">Cómo llegar</a>
+              <button class="btn btn-outline" id="copy-address" data-i18n="btn_copy_address">Copiar dirección</button>
+            </div>
+          </div>
+          <div class="map-container">
+            <iframe
+              title="Mapa de Ozomatli en Google Maps"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.5!2d-99.1301398!3d19.3895814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fef68a5ed4db%3A0xfb9d652bc89bd48b!2sOzomatli!5e0!3m2!1ses!2smx!4v1710000000000!5m2!1ses!2smx"
+              width="100%"
+              height="350"
+              style="border:0; border-radius: 12px;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contacto">
+      <div class="container">
+        <h2 class="section-title text-center" data-i18n="contact_title">Contacto</h2>
+        <div class="contact-panel">
+          <a href="tel:+525534737095" class="contact-card">
+            <span class="contact-icon">📞</span>
+            <span data-i18n="contact_call">Llamar</span>
+            <strong>+52 55 3473 7095</strong>
+          </a>
+          <a href="https://wa.me/525534737095?text=Hola%2C%20quisiera%20información%20sobre%20Ozomatli%20%2F%20Tinta%20Café" class="contact-card whatsapp" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon">💬</span>
+            <span data-i18n="contact_whatsapp">WhatsApp</span>
+            <strong>+52 55 3473 7095</strong>
+          </a>
+          <a href="https://maps.app.goo.gl/2h218DQonh3ST5nA6" class="contact-card" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon">📍</span>
+            <span data-i18n="contact_maps">Google Maps</span>
+            <strong data-i18n="contact_maps_desc">Ver ubicación</strong>
+          </a>
+        </div>
+        <p class="contact-note" data-i18n="contact_note">No se encontró un correo electrónico público ni redes sociales oficiales verificadas. Usa el teléfono o WhatsApp para contactar.</p>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta">
+      <div class="container text-center">
+        <h2 data-i18n="cta_title">¿Listo para visitarnos?</h2>
+        <p data-i18n="cta_desc">Escríbenos por WhatsApp o ven a disfrutar de nuestras crepas y el ambiente de Ozomatli.</p>
+        <a href="https://wa.me/525534737095?text=Hola%2C%20quisiera%20reservar%20o%20consultar%20el%20menú" class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer" data-i18n="cta_btn">Escribir por WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <strong>Ozomatli</strong>
+        <p data-i18n="footer_tagline">Crepería & Espacio Cultural · Iztacalco, CDMX</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#menu" data-i18n="nav_menu">Menú</a>
+        <a href="#ubicacion" data-i18n="nav_location">Ubicación</a>
+        <a href="#contacto" data-i18n="nav_contact">Contacto</a>
+      </nav>
+      <p class="copyright">© <span id="year"></span> Ozomatli. Información basada en fuentes públicas. No afiliado a Google.</p>
+    </div>
+  </footer>
+
+  <!-- Mobile quick actions -->
+  <div class="mobile-bar" id="mobile-bar">
+    <a href="tel:+525534737095" aria-label="Llamar">📞</a>
+    <a href="https://wa.me/525534737095" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">💬</a>
+    <a href="https://www.google.com/maps/dir/?api=1&destination=19.3895814,-99.1301398" target="_blank" rel="noopener noreferrer" aria-label="Cómo llegar">📍</a>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
